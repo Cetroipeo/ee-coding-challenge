@@ -6,10 +6,10 @@ import datetime
 # define globals
 # -----------------------
 
-# tarrifs are defined as p/kWh FLAT_RATE tariff is applied to all time ranges of
-# a day wihin a month the alternative of economy 7, applies the tariff ECONOMY
-# for the time range 23:00 to 6:00 and the FLAT_RATE tariff for the remaining
-# hours within one day
+# tariffs are defined as p/kWh 
+# FLAT_RATE tariff is applied to all time ranges of a day wihin a month 
+# the alternative of economy 7, applies the tariff ECONOMY for the time 
+# range 23:00 to 6:00 and the FLAT_RATE tariff for the remaining hours within one day
 
 ECONOMY = 0.11
 FLAT_RATE = 0.15
